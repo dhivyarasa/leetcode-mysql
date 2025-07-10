@@ -41,7 +41,8 @@
 -- Business with id 1 has 7 'reviews' events (more than 5) and 11 'ads' events (more than 8) so it is an active business.
 
 -- Schema for Active-Businesses:
--- Schema Creation:
+
+-- Create the Events table
 
 CREATE TABLE Events (
     business_id INT,
@@ -50,7 +51,7 @@ CREATE TABLE Events (
     PRIMARY KEY (business_id, event_type)
 );
 
--- Insert Sample Data:
+-- Insert Sample Data
 
 INSERT INTO Events (business_id, event_type, occurences) VALUES
 (1, 'reviews', 7),
@@ -65,12 +66,12 @@ INSERT INTO Events (business_id, event_type, occurences) VALUES
 SELECT 
     t1.business_id
 FROM
-    events AS t1
+    Events AS t1
         JOIN
     (SELECT 
         event_type, AVG(occurences) AS avg_occur
     FROM
-        events
+        Events
     GROUP BY event_type) AS t2 ON t1.event_type = t2.event_type
 WHERE
     t1.occurences > t2.avg_occur
