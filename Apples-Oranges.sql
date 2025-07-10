@@ -88,19 +88,19 @@ ORDER BY sale_date;
 
 -- using cte
 WITH cte1 AS (
-Select sale_date, fruit, sold_num
-From Sales
+SELECT sale_date, fruit, sold_num
+FROM Sales
 ),
 cte2 AS (
-Select sale_date, 
+SELECT sale_date, 
 SUM(CASE WHEN fruit = 'apples' THEN sold_num ELSE 0 END) AS apples_sold,
 SUM(CASE WHEN fruit = 'oranges' THEN sold_num ELSE 0 END) AS oranges_sold
-From cte1
-Group by sale_date
+FROM cte1
+GROUP BY sale_date
 )
-Select sale_date, (apples_sold - oranges_sold) AS diff
-From cte2
-Order by sale_date;
+SELECT sale_date, (apples_sold - oranges_sold) AS diff
+FROM cte2
+ORDER BY sale_date;
 
 -- using joins
 SELECT 
