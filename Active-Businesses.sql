@@ -40,7 +40,7 @@
 -- Average for 'reviews', 'ads' and 'page views' are (7+3)/2=5, (11+7+6)/3=8, (3+12)/2=7.5 respectively.
 -- Business with id 1 has 7 'reviews' events (more than 5) and 11 'ads' events (more than 8) so it is an active business.
 
--- Schema for Active_Businesses:
+-- Schema for Active-Businesses:
 -- Schema Creation:
 
 CREATE TABLE Events (
@@ -61,7 +61,7 @@ INSERT INTO Events (business_id, event_type, occurences) VALUES
 (1, 'page views', 3),
 (2, 'page views', 12);
 
--- Solution to Active_Businesses:
+-- Solution to Active-Businesses:
 SELECT 
     t1.business_id
 FROM
