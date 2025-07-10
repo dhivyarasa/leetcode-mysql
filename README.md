@@ -12,7 +12,7 @@ racking progress on solving MySQL questions from LeetCode.
 | 5 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | [] |
 | 6 | [Active-Businesses](https://leetcode.com/problems/active-businesses/description/) | [x] |
 | 7 | [Apples-Oranges](https://leetcode.com/problems/apples-oranges/description/) | [x] |
-| 8 | [Biggest-Window-Between-Visits](https://leetcode.com/problems/active-businesses/description/) | [x] |
+| 8 | [Biggest-Window-Between-Visits](https://leetcode.com/problems/biggest-window-between-visits/description/) | [x] |
 ---
 ---
 ---
