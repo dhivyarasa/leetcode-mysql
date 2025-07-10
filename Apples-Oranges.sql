@@ -48,7 +48,7 @@ Day 2020-05-04, 15 apples and 16 oranges were sold (Difference 15 - 16 = -1).
 
 */
 
--- Schema for Active_Businesses:
+-- Schema for Apple-Oranges:
 
 -- Create the Sales table
 CREATE TABLE Sales (
