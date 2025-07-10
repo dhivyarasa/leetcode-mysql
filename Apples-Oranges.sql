@@ -82,14 +82,14 @@ SELECT
         ELSE 0
     END) AS diff
 FROM
-    sales2
+    Sales
 GROUP BY sale_date
 ORDER BY sale_date;
 
 -- using cte
 WITH cte1 AS (
 Select sale_date, fruit, sold_num
-From sales2
+From Sales
 ),
 cte2 AS (
 Select sale_date, 
@@ -109,14 +109,14 @@ FROM
     (SELECT 
         sale_date, sold_num, fruit
     FROM
-        sales2
+        Sales
     WHERE
         fruit = 'apples') a
         JOIN
     (SELECT 
         sale_date, sold_num, fruit
     FROM
-        sales2
+        Sales
     WHERE
         fruit = 'oranges') o ON a.sale_date = o.sale_date
 ORDER BY a.sale_date;
