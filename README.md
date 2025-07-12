@@ -1,6 +1,6 @@
 # leetcode-mysql
 Solving Leetcode SQL Questions
-racking progress on solving MySQL questions from LeetCode.
+tracking progress on solving MySQL questions from LeetCode.
 ---
 ## Tracking Problems
 | # | Problem | Status |
@@ -13,6 +13,7 @@ racking progress on solving MySQL questions from LeetCode.
 | 6 | [Active-Businesses](https://leetcode.com/problems/active-businesses/description/) | [x] |
 | 7 | [Apples-Oranges](https://leetcode.com/problems/apples-oranges/description/) | [x] |
 | 8 | [Biggest-Window-Between-Visits](https://leetcode.com/problems/biggest-window-between-visits/description/) | [x] |
+| 9 | [Recyclable and Low_Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [x] |
 ---
 ---
 ---
