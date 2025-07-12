@@ -1,6 +1,6 @@
 # leetcode-mysql
 Solving Leetcode SQL Questions
-racking progress on solving MySQL questions from LeetCode.
+tracking progress on solving MySQL questions from LeetCode.
 ---
 ## Tracking Problems
 | # | Problem | Status |
