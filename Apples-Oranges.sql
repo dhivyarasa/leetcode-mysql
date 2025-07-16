@@ -86,7 +86,7 @@ FROM
 GROUP BY sale_date
 ORDER BY sale_date;
 
--- using cte
+-- Using cte
 WITH cte1 AS (
 SELECT sale_date, fruit, sold_num
 FROM Sales
@@ -102,7 +102,7 @@ SELECT sale_date, (apples_sold - oranges_sold) AS diff
 FROM cte2
 ORDER BY sale_date;
 
--- using joins
+-- Using Joins
 SELECT 
     a.sale_date, (a.sold_num - o.sold_num) AS diff
 FROM
