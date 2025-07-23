@@ -67,6 +67,7 @@ INSERT INTO Employees (Id, Name, Salary, DepartmentId) VALUES
 (3, 'Sam', 60000, 2),
 (4, 'Max', 90000, 1);
 
+-- Solution to Department higest salary
 -- Using Joins
 SELECT 
     d.Name AS Department,
@@ -104,4 +105,3 @@ JOIN
     Department d ON e.DepartmentId = d.Id
 JOIN 
     DepartmentMaxSalary dm ON e.DepartmentId = dm.DepartmentId AND e.Salary = dm.MaxSalary;
-    
