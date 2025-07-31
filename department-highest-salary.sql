@@ -99,4 +99,5 @@ FROM
 JOIN 
     Department d ON e.DepartmentId = d.Id
 JOIN 
-    DepartmentMaxSalary dm ON e.DepartmentId = dm.DepartmentId AND e.Salary = dm.MaxSalary;
+    DepartmentMaxSalary dm 
+    ON e.DepartmentId = dm.DepartmentId AND e.Salary = dm.MaxSalary;
