@@ -16,7 +16,7 @@ tracking progress on solving MySQL questions from LeetCode.
 | 9 | [Recyclable And Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [x] |
 | 10 | [All People Report To The Given Managers](https://leetcode.com/problems/all-people-report-to-the-given-manager/description/) | [x] |
 | 11 | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/description/) | [x] |
-| 9 | [Recyclable And Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [] |
+| 12 | [Active Users](https://leetcode.com/problems/active-users/description/) | [x] |
 
 
 ---
