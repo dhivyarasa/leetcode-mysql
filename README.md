@@ -13,10 +13,10 @@ tracking progress on solving MySQL questions from LeetCode.
 | 6 | [Active Businesses](https://leetcode.com/problems/active-businesses/description/) | [x] |
 | 7 | [Apples-Oranges](https://leetcode.com/problems/apples-oranges/description/) | [x] |
 | 8 | [Biggest Window Between Visits](https://leetcode.com/problems/biggest-window-between-visits/description/) | [x] |
-| 9 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [x] |
-| 10 | [All People Report To The Given Managers](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [x] |
-| 11 | [Department Top Three Salaries](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [x] |
-| 9 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [] |
+| 9 | [Recyclable And Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [x] |
+| 10 | [All People Report To The Given Managers](https://leetcode.com/problems/all-people-report-to-the-given-manager/description/) | [x] |
+| 11 | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/description/) | [x] |
+| 9 | [Recyclable And Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [] |
 
 
 ---
