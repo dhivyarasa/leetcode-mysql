@@ -40,7 +40,7 @@ INSERT INTO Employee (Id, Name, Salary, ManagerId) VALUES
 (3, 'Sam', 60000, NULL),
 (4, 'Max', 90000, NULL);
 
--- Solution to Employees earning more than their managers
+-- Solution to Employees Earning More Than Their Managers
 SELECT 
     e.Name AS Employee
 FROM 

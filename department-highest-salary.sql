@@ -67,7 +67,7 @@ INSERT INTO Employees (Id, Name, Salary, DepartmentId) VALUES
 (3, 'Sam', 60000, 2),
 (4, 'Max', 90000, 1);
 
--- Solution to Department higest salary
+-- Solution to Department Higest Salary
 -- Using Joins
 SELECT 
     d.Name AS Department,

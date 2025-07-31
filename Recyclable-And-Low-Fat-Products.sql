@@ -46,7 +46,7 @@ Explanation: Only products 1 and 3 are both low fat and recyclable.
 
 */
 
--- Schema for Recylclable and Low_Fat Products:
+-- Schema for Recylclable and Low-Fat Products:
 
 -- Create the Products table
 CREATE TABLE Products (
@@ -63,7 +63,7 @@ INSERT INTO Products (product_id, low_fats, recyclable) VALUES
 (3, 'Y', 'Y'),
 (4, 'N', 'N');
 
-Solution to Recyclable and Low_Fat Products:
+-- Solution to Recyclable and Low_Fat Products:
 SELECT 
     product_id
 FROM

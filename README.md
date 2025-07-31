@@ -10,10 +10,15 @@ tracking progress on solving MySQL questions from LeetCode.
 | 3 | [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/) | [] |
 | 4 | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/) | [x] |
 | 5 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/) | [x] |
-| 6 | [Active-Businesses](https://leetcode.com/problems/active-businesses/description/) | [x] |
+| 6 | [Active Businesses](https://leetcode.com/problems/active-businesses/description/) | [x] |
 | 7 | [Apples-Oranges](https://leetcode.com/problems/apples-oranges/description/) | [x] |
-| 8 | [Biggest-Window-Between-Visits](https://leetcode.com/problems/biggest-window-between-visits/description/) | [x] |
-| 9 | [Recyclable and Low_Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [x] |
+| 8 | [Biggest Window Between Visits](https://leetcode.com/problems/biggest-window-between-visits/description/) | [x] |
+| 9 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [x] |
+| 10 | [All People Report To The Given Managers](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [x] |
+| 11 | [Department Top Three Salaries](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [x] |
+| 9 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/) | [] |
+
+
 ---
 ---
 ---
