@@ -68,7 +68,7 @@ INSERT INTO Employee (Id, Name, Salary, DepartmentId) VALUES
 (5, 'Janet', 69000, 1),
 (6, 'Randy', 85000, 1);
 
--- Solution for Department Top Three Salaries
+-- Solution to Department Top Three Salaries
 -- Using Dense Rank
 SELECT 
     d.Name AS Department,

@@ -77,7 +77,7 @@ INSERT INTO Employees (employee_id, employee_name, manager_id) VALUES
 (9, 'Angela', 8),
 (77, 'Robert', 1);
 
--- Solution to Department Higest Salary
+-- Solution to All People Report To The Given Managers
 -- Using cte
 WITH RECURSIVE ReportChain AS (
     SELECT employee_id, manager_id
