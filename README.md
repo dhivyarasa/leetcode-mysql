@@ -17,6 +17,11 @@ tracking progress on solving MySQL questions from LeetCode.
 | 10 | [All People Report To The Given Managers](https://leetcode.com/problems/all-people-report-to-the-given-manager/description/) | [x] |
 | 11 | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/description/) | [x] |
 | 12 | [Active Users](https://leetcode.com/problems/active-users/description/) | [x] |
+| 13 | [Activity Participants](https://leetcode.com/problems/activity-participants/description/) | [x] |
+| 14 | [Actors And Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/description/) | [x] |
+| 15 | [Ad Free Sessions](https://leetcode.com/problems/ad-free-sessions/description/) | [x] |
+| 16 | [Ads Performance](https://leetcode.com/problems/ads-performance/description/) | [x] |
+
 
 
 ---
