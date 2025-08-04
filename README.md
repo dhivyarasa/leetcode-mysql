@@ -21,6 +21,13 @@ tracking progress on solving MySQL questions from LeetCode.
 | 14 | [Actors And Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/description/) | [x] |
 | 15 | [Ad Free Sessions](https://leetcode.com/problems/ad-free-sessions/description/) | [x] |
 | 16 | [Ads Performance](https://leetcode.com/problems/ads-performance/description/) | [x] |
+| 17 | [All The Pairs With The Maximum Number Of Common Followers](https://leetcode.com/problems/all-the-pairs-with-the-maximum-number-of-common-followers/description/) | [x] |
+| 18 | [All Valid Triplets That Can Represent A Country](https://leetcode.com/problems/all-valid-triplets-that-can-represent-a-country/description/) | [x] |
+| 19 | [Article Views I](https://leetcode.com/problems/article-views-i/description/) | [x] |
+| 20 | [Article Views II](https://leetcode.com/problems/article-views-ii/description/) | [x] |
+| 21 | [Average Selling Price](https://leetcode.com/problems/average-selling-price/description/) | [x] |
+
+
 
 
 
