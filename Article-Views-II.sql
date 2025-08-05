@@ -12,9 +12,11 @@ Table: Views
 +---------------+---------+
 
 There is no primary key for this table, it may have duplicate rows.
-Each row of this table indicates that some viewer viewed an article (written by some author) on some date. 
+Each row of this table indicates that some viewer viewed an article 
+(written by some author) on some date. 
 Note that equal author_id and viewer_id indicate the same person.
-Write an SQL query to find all the people who viewed more than one article on the same date, sorted in ascending order by their id.
+Write an SQL query to find all the people who viewed more than one article 
+on the same date, sorted in ascending order by their id.
 
 The query result format is in the following example:
 

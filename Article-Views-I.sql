@@ -44,7 +44,7 @@ Result table:
 
 */
 
--- Schema for Article views:
+-- Schema for Article Views:
 
 -- Create the Views table
 CREATE TABLE Views (
@@ -64,7 +64,7 @@ INSERT INTO Views (article_id, author_id, viewer_id, view_date) VALUES
 (3, 4, 4, '2019-07-21'),
 (3, 4, 4, '2019-07-21');
 
--- Solution to Article views
+-- Solution to Article Views
 SELECT DISTINCT
     author_id AS id
 FROM
