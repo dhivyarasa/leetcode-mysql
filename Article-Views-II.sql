@@ -69,7 +69,7 @@ INSERT INTO Views (article_id, author_id, viewer_id, view_date) VALUES
 SELECT 
     viewer_id AS id
 FROM
-    Views1
+    Views
 GROUP BY viewer_id , view_date
 HAVING COUNT(DISTINCT article_id) > 1
 ORDER BY viewer_id ASC;
