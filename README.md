@@ -28,6 +28,7 @@ tracking progress on solving MySQL questions from LeetCode.
 | 21 | [Average Selling Price](https://leetcode.com/problems/average-selling-price/description/) | [x] |
 | 22 | [Average Time Of Process Per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/description/) | [x] |
 | 23 | [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/description/) | [x] |
+| 24 | [Bank Account Summary](https://leetcode.com/problems/bank-account-summary/description/) | [x] |
 
 
 
