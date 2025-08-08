@@ -19,7 +19,8 @@ Table Logins:
 | login_date    | date    |
 +---------------+---------+
 There is no primary key for this table, it may contain duplicates.
-This table contains the account id of the user who logged in and the login date. A user may log in multiple times in the day.
+This table contains the account id of the user who logged in and the login date. 
+A user may log in multiple times in the day.
 Write an SQL query to find the id and the name of active users.
 
 Active users are those who logged in to their accounts for 5 or more consecutive days.
@@ -57,10 +58,13 @@ Result table:
 +----+----------+
 | 7  | Jonathan |
 +----+----------+
-User Winston with id = 1 logged in 2 times only in 2 different days, so, Winston is not an active user.
-User Jonathan with id = 7 logged in 7 times in 6 different days, five of them were consecutive days, so, Jonathan is an active user.
+User Winston with id = 1 logged in 2 times only in 2 different days, so, 
+Winston is not an active user.
+User Jonathan with id = 7 logged in 7 times in 6 different days, five of 
+them were consecutive days, so, Jonathan is an active user.
 Follow up question:
-Can you write a general solution if the active users are those who logged in to their accounts for n or more consecutive days?
+Can you write a general solution if the active users are those who logged in 
+to their accounts for n or more consecutive days?
 
 
 */

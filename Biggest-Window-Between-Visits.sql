@@ -16,7 +16,8 @@ This table does not have a primary key.
 This table contains logs of the dates that users vistied a certain retailer.
 Assume today’s date is ‘2021-1-1’.
 
-Write an SQL query that will, for each user_id, find out the largest window of days between each visit and the one right after it (or today if you are considering the last visit).
+Write an SQL query that will, for each user_id, find out the largest window of days 
+between each visit and the one right after it (or today if you are considering the last visit).
 
 Return the result table ordered by user_id.
 
@@ -50,7 +51,8 @@ For the second user, the windows in question are between dates:
     - 2020-10-5 and 2020-12-9 with a total of 65 days.
     - 2020-12-9 and 2021-1-1 with a total of 23 days.
 Making the biggest window the one with 65 days.
-For the third user, the only window in question is between dates 2020-11-11 and 2021-1-1 with a total of 51 days.
+For the third user, the only window in question is between dates 2020-11-11 
+and 2021-1-1 with a total of 51 days.
 
 */
 

@@ -24,7 +24,10 @@ Table: Transactions
 trans_id is the primary key for this table.
 Each row of this table contains the information about the transaction in the bank.
 User with id (paid_by) transfer money to user with id (paid_to).
-Leetcode Bank (LCB) helps its coders in making virtual payments. Our bank records all transactions in the table Transaction, we want to find out the current balance of all users and check wheter they have breached their credit limit (If their current credit is less than 0).
+Leetcode Bank (LCB) helps its coders in making virtual payments. 
+Our bank records all transactions in the table Transaction, 
+we want to find out the current balance of all users and check whether 
+they have breached their credit limit (If their current credit is less than 0).
 Write an SQL query to report.
 user_id
 user_name
@@ -58,9 +61,12 @@ Result table:
 | 3          | Winston    | 9900       | No                    |
 | 4          | Luis       | 800        | No                    |
 +------------+------------+------------+-----------------------+
-Moustafa paid $400 on "2020-08-01" and received $200 on "2020-08-03", credit (100 -400 +200) = -$100
-Jonathan received $500 on "2020-08-02" and paid $200 on "2020-08-08", credit (200 +500 -200) = $500
-Winston received $400 on "2020-08-01" and paid $500 on "2020-08-03", credit (10000 +400 -500) = $9990
+Moustafa paid $400 on "2020-08-01" and received $200 on "2020-08-03", 
+credit (100 -400 +200) = -$100
+Jonathan received $500 on "2020-08-02" and paid $200 on "2020-08-08", 
+credit (200 +500 -200) = $500
+Winston received $400 on "2020-08-01" and paid $500 on "2020-08-03", 
+credit (10000 +400 -500) = $9990
 Luis didn't received any transfer, credit = $800
 
 */

@@ -22,9 +22,11 @@ Table: Activities
 +---------------+---------+
 id is the primary key for this table.
 name is the name of the activity.
-Write an SQL query to find the names of all the activities with neither maximum, nor minimum number of participants.
+Write an SQL query to find the names of all the activities with neither maximum, 
+nor minimum number of participants.
 
-Return the result table in any order. Each activity in table Activities is performed by any person in the table Friends.
+Return the result table in any order. Each activity in table Activities is performed
+by any person in the table Friends.
 
 The query result format is in the following example:
 
@@ -57,7 +59,8 @@ Result table:
 | Singing      |
 +--------------+
 
-Eating activity is performed by 3 friends, maximum number of participants, (Jonathan D. , Elvis Q. and Daniel A.)
+Eating activity is performed by 3 friends, maximum number of participants,
+ (Jonathan D. , Elvis Q. and Daniel A.)
 Horse Riding activity is performed by 1 friend, minimum number of participants, (Bob B.)
 Singing is performed by 2 friends (Victor J. and Jade W.)
 
