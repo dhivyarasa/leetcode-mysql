@@ -30,6 +30,8 @@ tracking progress on solving MySQL questions from LeetCode.
 | 23 | [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/description/) | [x] |
 | 24 | [Bank Account Summary](https://leetcode.com/problems/bank-account-summary/description/) | [x] |
 | 25 | [Big Countries](https://leetcode.com/problems/big-countries/description/) | [x] |
+| 26 | [Calculate Salaries](https://leetcode.com/problems/calculate-salaries/description/) | [x] |
+| 27 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/description/) | [x] |
 
 
 
