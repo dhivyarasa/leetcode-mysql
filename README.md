@@ -32,6 +32,7 @@ tracking progress on solving MySQL questions from LeetCode.
 | 25 | [Big Countries](https://leetcode.com/problems/big-countries/description/) | [x] |
 | 26 | [Calculate Salaries](https://leetcode.com/problems/calculate-salaries/description/) | [x] |
 | 27 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/description/) | [x] |
+| 28 | [Capital Gain Loss](https://leetcode.com/problems/capital-gainloss/description/) | [x] |
 
 
 
