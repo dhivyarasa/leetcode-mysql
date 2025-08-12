@@ -61,3 +61,61 @@ for each ('Buy' --> 'Sell') operation = (1010 - 10) + (500 - 1000)
 + (10000 - 1000) = 1000 - 500 + 9000 = 9500$.
 
 */
+
+-- Schema for Capital Gain Loss:
+
+-- Create the Stocks table
+CREATE TABLE Stocks (
+    stock_name VARCHAR(255),
+    operation ENUM('Buy', 'Sell'),
+    operation_day INT,
+    price INT,
+    PRIMARY KEY (stock_name, operation_day)
+);
+
+-- Insert sample data into the Stocks table
+INSERT INTO Stocks (stock_name, operation, operation_day, price) VALUES
+('Leetcode', 'Buy', 1, 1000),
+('Corona Masks', 'Buy', 2, 10),
+('Leetcode', 'Sell', 5, 9000),
+('Handbags', 'Buy', 17, 30000),
+('Corona Masks', 'Sell', 3, 1010),
+('Corona Masks', 'Buy', 4, 1000),
+('Corona Masks', 'Sell', 5, 500),
+('Corona Masks', 'Buy', 6, 1000),
+('Handbags', 'Sell', 29, 7000),
+('Corona Masks', 'Sell', 10, 10000);
+
+-- Solution to Capital Gain Loss
+SELECT 
+    stock_name,
+    SUM(CASE 
+            WHEN operation = 'Sell' THEN price
+            WHEN operation = 'Buy' THEN -price
+            ELSE 0
+        END) AS capital_gain_loss
+FROM Stocks
+GROUP BY stock_name;
+
+-- Using cte
+WITH Ordered_Stocks AS (
+    SELECT *,
+           ROW_NUMBER() OVER (PARTITION BY stock_name, operation ORDER BY operation_day) AS rn
+    FROM Stocks
+),
+Buy_Sell_Pairs AS (
+    SELECT 
+        b.stock_name,
+        s.price - b.price AS gain_loss
+    FROM Ordered_Stocks b
+    JOIN Ordered_Stocks s
+      ON b.stock_name = s.stock_name
+     AND b.rn = s.rn
+     AND b.operation = 'Buy'
+     AND s.operation = 'Sell'
+)
+SELECT 
+    stock_name,
+    SUM(gain_loss) AS capital_gain_loss
+FROM Buy_Sell_Pairs
+GROUP BY stock_name;
