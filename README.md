@@ -33,6 +33,8 @@ tracking progress on solving MySQL questions from LeetCode.
 | 26 | [Calculate Salaries](https://leetcode.com/problems/calculate-salaries/description/) | [x] |
 | 27 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/description/) | [x] |
 | 28 | [Capital Gain Loss](https://leetcode.com/problems/capital-gainloss/description/) | [x] |
+| 29 | [Confirmation Rate](https://leetcode.com/problems/confirmation-rate/description/) | [x] |
+
 
 
 
