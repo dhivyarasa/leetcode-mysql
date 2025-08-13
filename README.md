@@ -34,6 +34,7 @@ tracking progress on solving MySQL questions from LeetCode.
 | 27 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/description/) | [x] |
 | 28 | [Capital Gain Loss](https://leetcode.com/problems/capital-gainloss/description/) | [x] |
 | 29 | [Confirmation Rate](https://leetcode.com/problems/confirmation-rate/description/) | [x] |
+| 30 | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/description/) | [x] |
 
 
 
